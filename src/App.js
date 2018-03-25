@@ -4,7 +4,7 @@ import Dashboard from './Dashboard';
 import { UserList } from './users'
 import { PostList, PostEdit, PostCreate } from './posts';
 
-const restClient = jsonServerRestClient('http://jsonplaceholder.typicode.com');
+const restClient = jsonServerRestClient('https://jsonplaceholder.typicode.com');
 
 const App = () => (
   <Admin
