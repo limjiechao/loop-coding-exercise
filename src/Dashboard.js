@@ -100,28 +100,23 @@ class Dashboard extends Component {
   // }
 
   onDrop(acceptedFiles, rejectedFiles) {
-    console.log('acceptedFiles', acceptedFiles);
-    console.log('rejectedFiles', rejectedFiles);
+    // console.log('acceptedFiles', acceptedFiles);
+    // console.log('rejectedFiles', rejectedFiles);
     this.setState((prevState, props) => {
-      console.log('prevState', prevState);
       return { files: [...prevState.files, ...acceptedFiles] };
     });
-    console.log(this.state.files);
   }
 
   render() {
     const { width } = this.props;
-    console.log(this.props);
     let userCount = this.state.userCount;
     let nameStartingWithN = this.state.nameStartingWithN;
     let files = this.state.files.map(file => {
-      console.log('file', file);
       return (
         <li key={`list-${file.name}`}>{file.name} - {file.size} bytes</li>
       );
     })
     let images = this.state.files.map(file => {
-      console.log('file', file);
       return (
         <img
           style={styles.img }
