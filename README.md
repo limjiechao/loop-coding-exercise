@@ -1,8 +1,11 @@
 # Loop Coding Exercise
 
-This was the coding exercise I went through during the job interview at [Loop](https://loop.space/). I think I have figured out and finished the image upload dropzone which I was not able to touch upon during the coding exercise.
+<p align="center"><img src="./documentation/screenshot.png"/></p>
+
+This was the coding exercise I went through during the job interview at [Loop](https://loop.space/). I have partially figured out the image upload dropzone which I did not touch upon during the coding exercise.
 
 <!-- ## Live Deployment -->
+
 
 ## Tasks
 
