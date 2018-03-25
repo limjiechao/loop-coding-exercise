@@ -4,8 +4,9 @@
 
 This was the coding exercise I went through during the job interview at [Loop](https://loop.space/). I have partially figured out the image upload dropzone which I did not touch upon during the coding exercise.
 
-<!-- ## Live Deployment -->
+## Live Deployment
 
+<https://loop-coding-exercise-foihoecmws.now.sh>
 
 ## Tasks
 
